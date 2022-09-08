@@ -14,8 +14,6 @@
 
 // 
 
-
-
 const morseCode = {
     '-.-.--': '!',
     '.-..-.': '"',
@@ -94,7 +92,6 @@ const decodeMorse = (code) => {
 
     answer = wordsTranslated.join("");
     return answer
-
 }
 
 console.log(decodeMorse(code));
